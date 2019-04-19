@@ -1,0 +1,27 @@
+{
+    "name": "rrandall91/marchex",
+    "description": "Marchex PHP Library",
+    "keywords": [
+      "marchex",
+      "call tracking",
+      "api"
+    ],
+    "homepage": "https://github.com/rrandall91/marchex-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rashaad R. Randall",
+            "email": "rrandall@poweredbyvivid.com",
+            "homepage": "https://github.com/rrandall91"
+        }
+    ],
+    "require": {
+      "php": ">= 5.4.0",
+      "ext-json": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Marchex\\": "src/"
+      }
+    }
+}
