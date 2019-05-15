@@ -27,7 +27,7 @@ namespace Marchex;
      * The base URL for the Marchex API
      * @var string
      **/
-     protected static $apiBase = 'https://api.marchex.io/api/jsonrpc/1';
+     protected static $api_base_url = 'https://api.marchex.io/api/jsonrpc/1';
 
      /**
       * Gets the base API URL
@@ -36,7 +36,7 @@ namespace Marchex;
       **/
      public static function getBaseUrl()
      {
-        return self::$apiBase;
+        return self::$api_base_url;
      }
 
      /**
